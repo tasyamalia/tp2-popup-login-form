@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import '../css/main.css'
 import '../css/util.css'
-import {useNavigate } from 'react-router-dom';
 
 export class Login extends Component {
   constructor(props) {

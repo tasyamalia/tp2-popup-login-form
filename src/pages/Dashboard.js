@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 // import { Button, Card, Form } from "react-bootstrap";
-import ReactDOM from "react-dom";
-import IdleTimer, { IdleTimerProvider } from "react-idle-timer";
- import { useNavigate } from "react-router-dom";
+import { IdleTimerProvider } from "react-idle-timer";
 import Swal from "sweetalert2";
 // import withReactContent from 'sweetalert2-react-content'
 
