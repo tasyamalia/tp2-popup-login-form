@@ -88,7 +88,7 @@ export class Login extends Component {
                 </div>
 
                 <div class="container-login100-form-btn">
-                <ReCAPTCHA sitekey="6LePlRYkAAAAACoVUjGwhj6w4CeIjQYhwQu7Bnzo" onChange={handleClickRecaptcha} ref={(r) => this.captcha = r}/>
+                <ReCAPTCHA sitekey="6LePlRYkAAAAAG3QDW-jP6ygk1p7e3zTfdStfSV3" onChange={handleClickRecaptcha} ref={(r) => this.captcha = r}/>
                   <button type="submit" class="login100-form-btn"  disabled={this.state.waitingTime > 0}>
                     Login
                   </button>
